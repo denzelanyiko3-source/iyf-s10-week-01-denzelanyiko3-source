@@ -1,44 +1,56 @@
-<link rel="stylesheet" href="style.css">
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 html{font-size: 16px;}
-body{font-family:"Cormorant Garamond", serif;
-    font-size: 16px;
-    line-height: 1.6;
-    background-color: red !important;    
+:root{
+    --font-xs: 0.75rem;    
+    --font-sm: 0.875rem;   
+    --font-base: 1rem;    
+    --font-lg: 1.125rem;   
+    --font-xl: 1.25rem; 
+    --font-2xl: 1.5rem;    
+    --font-3xl: 1.875rem;  
+    --font-4xl: 2.25rem;  
 }
-h1{font-size: 40px;
+body{font-family:"Open Sans",sans-serif;
+    font-size:var(--font-base);  
+    line-height: 1.6;
+    background-color: gainsboro;    
+}
+h1{font-size:var(--font-4xl);
     margin:24px 0 16px;
     font-weight: 700;
+    font-family: "Poppins", sans-serif;
     
 }
-h2{font-size: 32px;
+h2{font-size:var(--font-3xl);
     margin: 22px 0 14px;
     font-weight: 600;
+    font-family: "Poppins", sans-serif;
 
 }
-h3{font-size: 26px;
+h3{font-size:var(--font-2xl);
     margin: 20px 0 12px;
     font-weight: 600; 
-
+font-family: "Poppins", sans-serif;
 }
 h4{
-    font-size: 22px;
+    font-size:var(--font-xl);
     margin: 18px 0 10px;
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 h5{
-    font-size: 18px;
+    font-size: var(--font-lg);
     margin: 16px 0 8px;
     font-weight: 500;
+    font-family: "Poppins", sans-serif;
 }
 h6{
-    font-size: 16px;
+    font-size:var(--font-base);
     margin: 14px 0 6px;
     font-weight: 400;
-}ght: 400;
-ght: 400;
+    font-family: "Poppins", sans-serif;
 }
