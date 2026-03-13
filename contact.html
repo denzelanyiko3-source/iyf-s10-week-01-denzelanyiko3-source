@@ -8,53 +8,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
 <header>
-<h1>Contact Me</h1>
-<link rel="stylesheet" href="style.css">
+    <h1>Contact Us</h1>
 </header>
 
 <main>
-
 <form>
 
-<label for="name">Full Name</label>
-<input type="text" id="name" placeholder="Enter your name" required>
+<fieldset>
+<legend>Contact Information</legend>
 
-<label for="email">Email</label>
-<input type="email" id="email" placeholder="Enter your email" required>
+<label for="name">Full Name</label><br>
+<input 
+type="text" 
+id="name" 
+name="name" 
+placeholder="Enter your full name" 
+required>
+<br><br>
 
-<label for="phone">Phone</label>
-<input type="tel" id="phone" placeholder="Phone number">
+<label for="email">Email</label><br>
+<input 
+type="email" 
+id="email" 
+name="email" 
+placeholder="Enter your email" 
+required>
+<br><br>
 
-<label for="subject">Subject</label>
-<select id="subject">
-<option>General</option>
-<option>Project</option>
-<option>Support</option>
+<label for="phone">Phone</label><br>
+<input 
+type="tel" 
+id="phone" 
+name="phone" 
+placeholder="Enter your phone number">
+<br><br>
+
+<label for="subject">Subject</label><br>
+<select id="subject" name="subject">
+<option value="">Choose a subject</option>
+<option value="general">General Inquiry</option>
+<option value="support">Support</option>
+<option value="feedback">Feedback</option>
 </select>
 
-<label for="message">Message</label>
-<textarea id="message" minlength="50" required></textarea>
+</fieldset>
+
+<br>
+
+<fieldset>
+<legend>Your Message</legend>
+
+<label for="message">Message</label><br>
+<textarea 
+id="message" 
+name="message" 
+placeholder="Write your message..." 
+minlength="50" 
+required></textarea>
+
+<br><br>
 
 <label>
-<input type="checkbox">
-Subscribe to newsletter
+<input type="checkbox" name="newsletter">
+Subscribe to our newsletter
 </label>
+
+</fieldset>
+
+<br>
 
 <button type="submit">Submit</button>
 
 </form>
-
 </main>
 
 <footer>
-<p>© 2026 Denzel</p>
+<p>© 2026 My Site</p>
 </footer>
 
 </body>
