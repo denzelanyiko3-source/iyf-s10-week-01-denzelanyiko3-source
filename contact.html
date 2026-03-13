@@ -6,44 +6,56 @@
 </nav>
 
 <!DOCTYPE html>
-  <html lang="en">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Contact</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Contact</title>
 </head>
+
 <body>
 
-
-<hr>
-
+<header>
 <h1>Contact Me</h1>
+<link rel="stylesheet" href="style.css">
+</header>
 
-<h2>Contact Form</h2>
+<main>
+
 <form>
-  <fieldset>
-    <legend>Send a Message</legend>
 
-    <label>Full Name:</label><br>
-    <input type="text" placeholder="Enter your name" required><br><br>
+<label for="name">Full Name</label>
+<input type="text" id="name" placeholder="Enter your name" required>
 
-    <label>Email:</label><br>
-    <input type="email" placeholder="Enter your email" required><br><br>
+<label for="email">Email</label>
+<input type="email" id="email" placeholder="Enter your email" required>
 
-    <label>Message:</label><br>
-    <textarea placeholder="Your message"></textarea><br><br>
+<label for="phone">Phone</label>
+<input type="tel" id="phone" placeholder="Phone number">
 
-    <button type="submit">Send</button>
-  </fieldset>
+<label for="subject">Subject</label>
+<select id="subject">
+<option>General</option>
+<option>Project</option>
+<option>Support</option>
+</select>
+
+<label for="message">Message</label>
+<textarea id="message" minlength="50" required></textarea>
+
+<label>
+<input type="checkbox">
+Subscribe to newsletter
+</label>
+
+<button type="submit">Submit</button>
+
 </form>
 
-<h2>Social Media Links</h2>
-<ul>
-  <li><a href="https://www.instagram.com/d.3nz3lzzz"></a></li>
-</ul>
+</main>
 
-<h3>Location</h3>
-<p>Nairobi, Kenya</p>
+<footer>
+<p>© 2026 Denzel</p>
+</footer>
 
 </body>
 </html>
