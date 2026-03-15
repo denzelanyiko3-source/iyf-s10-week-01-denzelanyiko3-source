@@ -31,4 +31,4 @@ You have to be very precise when using bash.
 In pushing the repo to github.But i removed origin and created a PAT.
 
 ## Live Demo (if deployed)
-[View Live Demo](https://your-deployed-url.com)
+[View Live Demo](https://denzelanyiko3-source.github.io/iyf-s10-week-01-denzelanyiko3-source/)
