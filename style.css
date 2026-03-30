@@ -361,6 +361,22 @@ main {
   font-size: 0.95rem;
 }
 
+fieldset {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  padding: 16px;
+  margin: 16px 0;
+  background: rgba(0, 0, 0, 0.25);
+}
+
+legend {
+  color: var(--text);
+  font-weight: 600;
+  padding: 0 8px;
+  background: rgba(2, 6, 23, 0.76);
+  border-radius: 4px;
+}
+
 .section.contact {
   background: rgba(2, 6, 23, 0.76);
   backdrop-filter: blur(12px);
@@ -385,6 +401,7 @@ main {
   font-size: 1.05rem;
   margin-bottom: 8px;
 }
+
 
 @media (min-width: 992px) {
   .contact-page { flex-direction: row; }

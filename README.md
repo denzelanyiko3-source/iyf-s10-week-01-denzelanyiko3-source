@@ -11,7 +11,6 @@ Building and deploying my first website.To have a life portfolio page.
 ## Technologies Used
 - HTML5
 - CSS3
-- JavaScript
 
 ## Features
 -index.html
@@ -21,8 +20,6 @@ Building and deploying my first website.To have a life portfolio page.
 ## How to Run
 1. Clone this repository
 2. Open `index.html` in your browser
-   OR
-   Run `npm install` then `npm start`
 
 ## Lessons Learned
 You have to be very precise when using bash.
