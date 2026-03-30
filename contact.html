@@ -20,7 +20,7 @@
       <div class="container">
         <h1>Contact Me</h1>
         <p>Have a question or want to connect? Send a message and I'll get back to you.</p>
-
+<fieldset>
         <form class="contact-form">
           <label for="name">Full Name</label>
           <input type="text" id="name" name="name" placeholder="Enter your full name" required>
@@ -38,10 +38,11 @@
             <option value="support">Support</option>
             <option value="feedback">Feedback</option>
           </select>
-
+ </fieldset>
+        <legend>
           <label for="message">Message</label>
           <textarea id="message" name="message" placeholder="Write your message..." minlength="50" required></textarea>
-
+        </legend>
           <label class="checkbox">
             <input type="checkbox" name="newsletter">
             Subscribe to the newsletter
