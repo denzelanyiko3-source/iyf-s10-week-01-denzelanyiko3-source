@@ -30,4 +30,4 @@ Find a form element and list its inputs
 <input type="text">and<button>
 
 Take a screenshot of the Elements panel
-![Elements Panel Screenshot]
+![Elements Panel Screenshot](images/Elements.png)
